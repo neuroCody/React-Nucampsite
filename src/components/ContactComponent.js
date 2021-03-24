@@ -130,7 +130,7 @@ class Contact extends Component {
                                 <Col md={10}>
                                     <Control.text model=".phoneNum" id="phoneNum" name="phoneNum"
                                         placeholder="Phone number"
-                                        className="form-control"validators={{
+                                        className="form-control" validators={{
                                             required,
                                             minLength: minLength(10),
                                             maxLength: maxLength(15),
